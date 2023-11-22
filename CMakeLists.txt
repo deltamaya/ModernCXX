@@ -3,4 +3,6 @@ project(ModernCXX)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(ModernCXX main.cpp)
+add_executable(ModernCXX
+        main.cpp
+        day1_concepts.cxx)
